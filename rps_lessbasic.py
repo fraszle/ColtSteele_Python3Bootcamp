@@ -14,7 +14,7 @@ if comp == 1:
 elif comp == 2:
 	comp = "paper"
 	print("The computer plays: paper")
-elif comp == 3:
+else:
 	comp = "scissors"
 	print("The computer plays: scissors")
 
