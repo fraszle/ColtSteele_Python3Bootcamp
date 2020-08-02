@@ -10,13 +10,13 @@ player = player.lower()
 comp = random.randint(1, 3)
 if comp == 1:
 	comp = "rock"
-	print("The computer plays: rock")
+	print(f"The computer plays: {comp}")
 elif comp == 2:
 	comp = "paper"
-	print("The computer plays: paper")
+	print(f"The computer plays: {comp}")
 else:
 	comp = "scissors"
-	print("The computer plays: scissors")
+	print(f"The computer plays: {comp}")
 
 if player == comp:
 	print("It's a tie!")
